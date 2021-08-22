@@ -1,0 +1,41 @@
+    1  apt update
+    2  apt update -y
+    3  apt install net-tools
+    4  ifconfig
+    5  passwd www
+    6  useradd vasanth
+    7  passwd vasanth
+    8  ifconfig 
+    9  vi /etc/ssh/ssh_config
+   10  vi /etc/ssh/sshd_config
+   11  init 6
+   12  ifconfig 
+   13  passwd vasanth
+   14  cd /git/
+   15  git status
+   16  git clone https://github.com/ValaxyTech/DevOpsDemos.git
+   17  ls
+   18  cd DevOpsDemos
+   19  ls
+   20  cd ..
+   21  ls
+   22  git push origin master
+   23  cd..
+   24  mkdir /git2
+   25  cd git
+   26  ls
+   27  cd ..
+   28  cd git2
+   29  git init
+   30  git remote add origin https://github.com/vasanthmuthyala/devopsppts.git
+   31  git push -u origin main
+   32  echo "hi" > test.txt
+   33  git add .
+   34  git commit -m "test"
+   35  git status
+   36  git remote add origin https://github.com/vasanthmuthyala/devopsppts.git
+   37  git remote set-url origin https://github.com/vasanthmuthyala
+   38  git remote add origin https://github.com/vasanthmuthyala/devopsppts.git
+   39  git remote set-url origin https://github.com/vasanthmuthyala/devopsppts.git
+   40  git push origin master
+   41  history > history.txt 
